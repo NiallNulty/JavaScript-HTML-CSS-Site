@@ -375,8 +375,12 @@
     }
 
     .main__img--card {
-        height: 425px;
-        width: 425px;
+        height: 300px;
+        width: 500px;
+    }
+
+    .main__img--card img{
+        width: 500px;
     }
 
     .main__content {
@@ -508,14 +512,14 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .services__wrapper {
+    .service__wrapper {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .services__wrapper {
-        grid-template-columns: 1fr 1fr;
+    .service__wrapper {
+        grid-template-columns: 1fr;
     }
 }
 
