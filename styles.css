@@ -510,3 +510,8 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+
+.fa-layer-group,
+.fa-users {
+    font-size: 14rem;
+}
