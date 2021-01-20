@@ -1,3 +1,8 @@
+html,body
+{
+    overflow-x: hidden; 
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -339,6 +344,7 @@
 
 .main__img--container {
     text-align: center;
+    width: 850px;
 }
 
 .main__img--card {
@@ -404,9 +410,14 @@
 }
 
 @media screen and (max-width: 480px) {
+    
     .main__img--card {
         width: 250px;
-        height: 250px;
+        height: 150px;
+    }
+
+    .main__img--card img{
+        width: 250px;
     }
 
     .main__content h1 {
@@ -525,7 +536,7 @@
 
 .fa-layer-group,
 .fa-users {
-    font-size: 14rem;
+    font-size: 7rem;
 }
 
 /* footer */
